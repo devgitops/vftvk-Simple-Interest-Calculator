@@ -1,6 +1,6 @@
 function compute(){
     var flag = checkdata();
-    
+
     if(flag){
 
         var principal = document.getElementById("principal").value;
@@ -8,7 +8,7 @@ function compute(){
         var years = document.getElementById("years").value;
 
         var interest = principal*rate*years/100;
-        var amount = principal + interest;
+        var amount =  interest;
         var year = new Date().getFullYear() + parseInt(years);
 
         var res_msg = 
