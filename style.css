@@ -12,10 +12,33 @@ color: grey;
 .maindiv{
 background-color: white;
 color: black;
-width: 300px;
+width: 480px;
 padding: 20px;
 border-radius: 25px;
 align: center;
+}
+
+
+
+
+section{
+    display: table;
+    
+}
+
+section,button{
+    margin-left: 84px
+}
+
+
+p{
+    display: table-row;
+    height: 30px
+}
+
+label{
+    display: table-cell;
+    padding-right: 30px
 }
 
 
