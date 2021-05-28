@@ -42,3 +42,12 @@ function checkdata(){
     return true
     
 }
+
+function formReset(){
+    document.getElementById("form1").reset();
+    document.getElementById("result").innerHTML="";
+    var rate = document.getElementById("rate");
+    rate.value = 10.25;
+    updateRate()
+
+}

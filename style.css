@@ -21,12 +21,12 @@ align: center;
 
 
 
-section{
+form{
     display: table;
     
 }
 
-section,button{
+section{
     margin-left: 84px
 }
 
