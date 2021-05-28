@@ -20,13 +20,8 @@ align: center;
 
 
 
-
-form{
-    display: table;
-    
-}
-
 section{
+    display: table;
     margin-left: 84px
 }
 
